@@ -1,9 +1,9 @@
 console.log('js paired')
 
 
-const socket = io("http://127.0.0.1:5001", {
-    transports:['websocket']
-})
+const socket = io("https://serverside-chatwebsite.onrender.com", {
+    transports: ["websocket"] // optional, forces WebSocket only
+});
 
 // chat input
 
